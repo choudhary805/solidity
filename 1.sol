@@ -12,4 +12,7 @@ contract Abhi{
     function getnum() view public returns(uint){
         return num;
     }
+    function setnum() public returns(uint){
+       return num+=5;
+    }
 }
